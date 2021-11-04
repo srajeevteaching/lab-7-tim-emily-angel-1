@@ -31,7 +31,30 @@ def create_histogram():
 # Main Function
 def main():
     numberofrolls = get_number_of_rolls()
+    histogram = create_histogram()
     sum = roll_dice()
 
     count = 0
-    while count < numberofrolls:
+    while count <= numberofrolls:
+        if sum == 2:
+            list[0]+=1
+        elif sum == 3:
+            list[1]+=1
+        elif sum == 4:
+            list[2]+=1
+        elif sum == 5:
+            list[3]+=1
+        elif sum == 6:
+            list[4]+=1
+        elif sum == 7:
+            list[5]+=1
+        elif sum == 8:
+            list[6]+=1
+        elif sum == 9:
+            list[7]+=1
+        elif sum == 10:
+            list[8]+=1
+        elif sum == 11:
+            list[9]+=1
+        elif sum == 12:
+            list[10]+=1
